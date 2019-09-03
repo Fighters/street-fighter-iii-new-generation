@@ -1,0 +1,132 @@
+{
+  "names": {
+    "default": {
+      "roman": "Ibuki"
+    },
+    "japan": {
+      "roman": "Ibuki",
+      "original": "いぶき"
+    }
+  },
+  "images": {
+    "face": "ibuki.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Yamikazura",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "Tobizaru",
+        "input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Agemen",
+        "input": ":b:+[MP]"
+      },
+      {
+        "name": "Kobekudaki",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Bonshogeri",
+        "input": ":f:+[HK]"
+      },
+      {
+        "name": "Target Combo 1",
+        "input": "{inAir}, [HP], :f:+[MK]"
+      },
+      {
+        "name": "Target Combo 2",
+        "input": "{duringForwardJump}, [LP], :f:+[HP]"
+      },
+      {
+        "name": "Target Combo 3",
+        "input": "{duringForwardJump}, [LK], :f:+[MK]"
+      },
+      {
+        "name": "Target Combo 4",
+        "input": "{far}, [HP] > [HP]"
+      },
+      {
+        "name": "Target Combo 5",
+        "input": "{close}, [HP] > :d:+[HK] > [HK]"
+      },
+      {
+        "name": "Target Combo 6",
+        "input": ":b:+[MK] > :f:+[MK]"
+      },
+      {
+        "name": "Target Combo 7",
+        "input": "{close}, [LK] > [MK] > [HK]"
+      },
+      {
+        "name": "Target Combo 8",
+        "input": "{close}, [MK] > [HK]"
+      },
+      {
+        "name": "Target Combo 9",
+        "input": "{close}, [LP] > [MP]"
+      },
+      {
+        "name": "Target Combo 10",
+        "input": "{close}, [LP] > [MP] > :d:+[HK]"
+      },
+      {
+        "name": "Target Combo 11",
+        "input": ":b:+[MK] > :d:+[HK] > [HK]"
+      },
+      {
+        "name": "Target Combo 12",
+        "input": ":d:+[MP] > :d:+[HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Kunai",
+        "input": "{inAir}, :qcf:+[P]"
+      },
+      {
+        "name": "Neck Breaker",
+        "input": ":qcf:+[K]"
+      },
+      {
+        "name": "Kazekiri",
+        "input": ":dp:+[K]"
+      },
+      {
+        "name": "Hien",
+        "input": ":rdp:+[K]"
+      },
+      {
+        "name": "Tsumuji",
+        "input": ":qcb:+[K], {then} [K] {or} :d:+[K]"
+      },
+      {
+        "name": "Raida",
+        "input": ":hcb:+[P]"
+      }
+    ],
+    "{superArt1}": [
+      {
+        "name": "Kasumi Suzaku",
+        "input": "{inAir}, :qcf::qcf:+[P] ({tapPunch} {forMoreProjectiles})"
+      }
+    ],
+    "{superArt2}": [
+      {
+        "name": "Yoroitoshi",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{superArt3}": [
+      {
+        "name": "Hashinsho",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ]
+  }
+}
