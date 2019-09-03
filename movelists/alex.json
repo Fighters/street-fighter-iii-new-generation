@@ -1,0 +1,83 @@
+{
+  "names": {
+    "default": {
+      "roman": "Alex"
+    },
+    "japan": {
+      "roman": "Alex",
+      "original": "アレックス"
+    }
+  },
+  "images": {
+    "face": "alex.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Body Slam",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Chop",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Headbutt",
+        "input": ":b:+[HP]",
+        "extraInfo": "{backTurned}"
+      },
+      {
+        "name": "Flying Cross Chop",
+        "input": "{duringVerticalOrForwardJump} :d:+[HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Flash Chop",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Power Bomb",
+        "input": ":hcb:+[P]",
+        "extraInfo": "{backTurned}"
+      },
+      {
+        "name": "Air Knee Smash",
+        "input": ":dp:+[K]"
+      },
+      {
+        "name": "Air Stampede",
+        "input": "{charge} :d: :u:+[K]"
+      }
+    ],
+    "{superArt1}": [
+      {
+        "name": "Hyper Bomb",
+        "input": ":360:+[P]"
+      }
+    ],
+    "{superArt2}": [
+      {
+        "name": "Boomerang Raid",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{superArt3}": [
+      {
+        "name": "Stun Gun Headbutt",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "backTurned": "This move changes if it connects with a back-turned opponent"
+    },
+
+    "portuguese": {
+      "backTurned": "Este golpe muda caso acerte um adversário de costas"
+    }
+  }
+}
