@@ -1,0 +1,18 @@
+{
+    "english": {
+        "normalThrows": "Normal Throws",
+        "uniqueAttacks": "Unique Attacks",
+        "specialMoves": "Special Moves",
+        "superArt1": "Super Art I",
+        "superArt2": "Super Art II",
+        "superArt3": "Super Art III"
+    },
+    "portuguese": {
+        "normalThrows": "Agarrões Normais",
+        "uniqueAttacks": "Ataques Únicos",
+        "specialMoves": "Golpes Especiais",
+        "superArt1": "Super Art I",
+        "superArt2": "Super Art II",
+        "superArt3": "Super Art III"
+    }
+}
