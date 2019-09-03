@@ -1,0 +1,81 @@
+{
+  "names": {
+    "default": {
+      "roman": "Ryu"
+    },
+    "japan": {
+      "roman": "Ryu",
+      "original": "リュウ"
+    }
+  },
+  "images": {
+    "face": "ryu.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Shoulder Throw",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "Somersault Throw",
+        "input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Collarbone Breaker",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Target Combo",
+        "input": "{far}, [HP] > [HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hadoken",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Shoryuken",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Tatsumaki Senpukyaku",
+        "input": ":qcb:+[K]"
+      },
+      {
+        "name": "Jodan Sokutou Geri",
+        "input": ":hcf:+[K]"
+      }
+    ],
+    "{superArt1}": [
+      {
+        "name": "Shinku Hadoken",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{superArt2}": [
+      {
+        "name": "Shin Shoryuken",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{superArt3}": [
+      {
+        "name": "Denjin Hadoken",
+        "input": ":qcf::qcf:+[P] ({hold} [P] {and} {wiggleStick} {toCharge})"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "wiggleStick": "wiggle the joystick"
+    },
+
+    "portuguese": {
+      "wiggleStick": "gire o direcional"
+    }
+  }
+}
