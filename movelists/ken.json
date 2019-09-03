@@ -1,0 +1,76 @@
+{
+  "names": {
+    "default": {
+      "roman": "Ken"
+    },
+    "japan": {
+      "roman": "Ken",
+      "original": "ケン"
+    }
+  },
+  "images": {
+    "face": "ken.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Shoulder Throw",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "Knee Bash",
+        "input": "{close}, :b: {or} :f:+[MK]"
+      },
+      {
+        "name": "Somersault Throw",
+        "input": "{close}, :b: {or} :f:+[HK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Inazuma Kick I",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Inazuma Kick II",
+        "input": "{hold} [MK]"
+      },
+      {
+        "name": "Target Combo",
+        "input": "{close}, [MP] > [HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hadoken",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Shoryuken",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Tatsumaki Senpukyaku",
+        "input": ":qcb:+[K]"
+      }
+    ],
+    "{superArt1}": [
+      {
+        "name": "Shoryureppa",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{superArt2}": [
+      {
+        "name": "Shinryuken",
+        "input": ":qcf::qcf:+[K] ({tapKick} {forMoreHits})"
+      }
+    ],
+    "{superArt3}": [
+      {
+        "name": "Shippu Jinraikyaku",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ]
+  }
+}
