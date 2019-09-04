@@ -1,0 +1,68 @@
+{
+  "names": {
+    "default": {
+      "roman": "Elena"
+    },
+    "japan": {
+      "roman": "Elena",
+      "original": "エレナ"
+    }
+  },
+  "images": {
+    "face": "elena.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Leg Lift Throw",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Handstand Kick",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Sliding",
+        "input": ":df:+[HK]"
+      },
+      {
+        "name": "Target Combo",
+        "input": "{inAir}, [LP] > [MK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Scratch Wheel",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Rhino Horn",
+        "input": ":hcf:+[K]"
+      },
+      {
+        "name": "Mallet Smash",
+        "input": ":hcb:+[P]"
+      }
+    ],
+    "{superArt1}": [
+      {
+        "name": "Spinning Beat",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ],
+    "{superArt2}": [
+      {
+        "name": "Brave Dance",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ],
+    "{superArt3}": [
+      {
+        "name": "Healing",
+        "input": ":qcf::qcf:+[P] ({press} [P]+[P] {toCancel})"
+      }
+    ]
+  }
+}
