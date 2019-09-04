@@ -1,0 +1,101 @@
+{
+  "names": {
+    "default": {
+      "roman": "Yang"
+    },
+    "japan": {
+      "roman": "Yang",
+      "original": "ヤン"
+    }
+  },
+  "images": {
+    "face": "yang.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Ento Shugeki",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "Hiza Geri",
+        "input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Senpukyaku",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Raigeki Shu",
+        "input": "{duringVerticalOrForwardJump}, {atJumpApex}, :df:+[K]"
+      },
+      {
+        "name": "Koshu",
+        "input": "{1StepAway}, :f:+[HP]"
+      },
+      {
+        "name": "Target Combo 1",
+        "input": "{close}, [LP] > [MP] > [HP]"
+      },
+      {
+        "name": "Target Combo 2",
+        "input": "[LP] > [LK]"
+      },
+      {
+        "name": "Target Combo 3",
+        "input": "{close}, [MP] > [HP] > :b:+[HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Zessho Hoho",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Senkyutai",
+        "input": ":qcf:+[K]"
+      },
+      {
+        "name": "Kobokushi",
+        "input": ":qcb:+[P]"
+      },
+      {
+        "name": "Kobokushi (Feint)",
+        "input": ":qcb:+[LP]+[MP]+[HP]"
+      },
+      {
+        "name": "Zenpo Tenshin",
+        "input": ":hcb:+[K]"
+      }
+    ],
+    "{superArt1}": [
+      {
+        "name": "Tenshin Senkyutai",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ],
+    "{superArt2}": [
+      {
+        "name": "Sorai Rengeki",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{superArt3}": [
+      {
+        "name": "Genei Jin",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "1StepAway": "one step away from the opponent"
+    },
+
+    "portuguese": {
+      "1StepAway": "a um passo de distância"
+    }
+  }
+}
