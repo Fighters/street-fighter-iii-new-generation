@@ -45,7 +45,7 @@
       },
       {
         "name": "Hitobashira Nobori",
-        "input": "{inAir}, :qcf:+[K] ({tapKick} {forMoreHits})"
+        "input": "{inAir}, :qcf:+[K]"
       }
     ],
     "{superArt1}": [
