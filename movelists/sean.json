@@ -1,0 +1,72 @@
+{
+  "names": {
+    "default": {
+      "roman": "Sean"
+    },
+    "japan": {
+      "roman": "Sean",
+      "original": "ショーン"
+    }
+  },
+  "images": {
+    "face": "sean.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Shoulder Throw",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "Somersault Throw",
+        "input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Target Combo",
+        "input": "{close}, [MP] > [HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Sean Tackle",
+        "input": ":hcf:+[P] ({hold} [P] {toAttack})"
+      },
+      {
+        "name": "Dragon Smash",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Ryubikyaku",
+        "input": ":qcf:+[K]"
+      },
+      {
+        "name": "Tornado",
+        "input": ":qcb:+[K]"
+      },
+      {
+        "name": "Zenten",
+        "input": ":qcb:+[P]"
+      }
+    ],
+    "{superArt1}": [
+      {
+        "name": "Hado Burst",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{superArt2}": [
+      {
+        "name": "Shoryu Cannon",
+        "input": ":qcf::qcf:+[P] ({tapPunch} {forMoreHits})"
+      }
+    ],
+    "{superArt3}": [
+      {
+        "name": "Hyper Tornado",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ]
+  }
+}
