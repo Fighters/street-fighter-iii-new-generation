@@ -22,7 +22,7 @@
         "input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
       },
       {
-        "name": "Kuchu Jigokuguruma",
+        "name": "Kuchu Jigoku Guruma",
         "input": "{inAirAndClose}, :b: {or} :f:+[HP]"
       }
     ],
@@ -54,7 +54,7 @@
         "input": ":qcf::qcf:+[P], {then}, {close}, {press} [P]"
       },
       {
-        "name": "Kishin Kuchu Jigokuguruma",
+        "name": "Kishin Kuchu Jigoku Guruma",
         "input": ":qcf::qcf:+[P], {then}, {inAirAndClose}, {press} [P]"
       }
     ],
