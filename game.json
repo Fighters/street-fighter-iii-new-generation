@@ -24,6 +24,20 @@
           "releaseDate": "02-1997",
           "developer": "Capcom",
           "publisher": "Capcom"
+        },
+        {
+          "region": "United States",
+          "roman": "Street Fighter III: New Generation",
+          "releaseDate": "02-04-1997",
+          "developer": "Capcom",
+          "publisher": "Capcom"
+        },
+        {
+          "region": "Europa",
+          "roman": "Street Fighter III: New Generation",
+          "releaseDate": "03-20-1997",
+          "developer": "Capcom",
+          "publisher": "Capcom"
         }
       ]
     },
