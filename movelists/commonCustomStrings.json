@@ -5,7 +5,8 @@
         "specialMoves": "Special Moves",
         "superArt1": "Super Art I",
         "superArt2": "Super Art II",
-        "superArt3": "Super Art III"
+        "superArt3": "Super Art III",
+        "superArt": "Super Art"
     },
     "portuguese": {
         "normalThrows": "Agarrões Normais",
@@ -13,6 +14,7 @@
         "specialMoves": "Golpes Especiais",
         "superArt1": "Super Art I",
         "superArt2": "Super Art II",
-        "superArt3": "Super Art III"
+        "superArt3": "Super Art III",
+        "superArt": "Super Art"
     }
 }

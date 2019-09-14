@@ -1,0 +1,73 @@
+{
+  "names": {
+    "default": {
+      "roman": "Gill"
+    },
+    "japan": {
+      "roman": "Gill",
+      "original": "ギル"
+    }
+  },
+  "images": {
+    "face": "gill.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Guilty Bomb",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "Impact Claw",
+        "input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Palm Upper",
+        "input": ":b:+[MP]"
+      },
+      {
+        "name": "Target Combo 1",
+        "input": "[LP] > [MP]"
+      },
+      {
+        "name": "Target Combo 2",
+        "input": "[LP] > :b:+[MP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Pyrokinesis / Cryokinesis",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Cyber Lariat",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Moonsault Knee Drop",
+        "input": ":hcb:+[K]"
+      },
+      {
+        "name": "Psycho Headbutt",
+        "input": ":qcb:+[P]"
+      }
+    ],
+    "{superArt}": [
+      {
+        "name": "Ressurection",
+        "input": "{gillRessurection}"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "gillRessurection": "lose a round with the super meter on maximum"
+    },
+
+    "portuguese": {
+      "gillRessurection": "perca um round com o medidor de super no máximo"
+    }
+  }
+}
