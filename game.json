@@ -1,233 +1,75 @@
-{
-  "romans": {
-    "regions": [
-      {
-        "region": "default",
-        "roman": "Street Fighter III: New Generation"
-      },
-      {
-        "region": "japan",
-        "roman": "Street Fighter III: New Generation",
-        "original": "ストリートファイターIII -NEW GENERATION-"
-      }
-    ],
-    "also-known-as": ["sf3", "ng", "sf3 vanilla", "sf3ng"]
-  },
-  "platforms": [
-    {
-      "platform": "Arcade",
-      "regions": [
-        {
-          "region": "Japan",
-          "roman": "Street Fighter III: New Generation",
-          "original": "ストリートファイターIII -NEW GENERATION-",
-          "releaseDate": "02-1997",
-          "developer": "Capcom",
-          "publisher": "Capcom"
-        },
-        {
-          "region": "United States",
-          "roman": "Street Fighter III: New Generation",
-          "releaseDate": "02-04-1997",
-          "developer": "Capcom",
-          "publisher": "Capcom"
-        },
-        {
-          "region": "Europa",
-          "roman": "Street Fighter III: New Generation",
-          "releaseDate": "03-20-1997",
-          "developer": "Capcom",
-          "publisher": "Capcom"
-        }
-      ]
-    },
-    {
-      "platform": "Dreamcast",
-      "regions": [
-        {
-          "region": "United States",
-          "roman": "Street Fighter III: Double Impact",
-          "releaseDate": "06-19-2000",
-          "developer": "Capcom",
-          "publisher": "Capcom",
-          "coverFront": "dc-us-front.webp"
-        },
-        {
-          "region": "Europe",
-          "roman": "Street Fighter III: Double Impact",
-          "releaseDate": "09-15-2000",
-          "developer": "Capcom",
-          "publisher": "Capcom",
-          "coverFront": "dc-eu-front.webp"
-        },
-        {
-          "region": "Japan",
-          "roman": "Street Fighter III: W Impact",
-          "original": "ストリートファイターIII W IMPACT",
-          "releaseDate": "12-16-1999",
-          "developer": "Capcom",
-          "publisher": "Capcom",
-          "coverFront": "dc-jp-front.webp"
-        }
-      ]
-    }
-  ],
-  "characters": [
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Ryu"
-        },
-        {
-          "region": "japan",
-          "roman": "Ryu",
-          "original": "リュウ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Ken Masters"
-        },
-        {
-          "region": "japan",
-          "roman": "Ken Masters",
-          "original": "ケン・マスターズ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Alex"
-        },
-        {
-          "region": "japan",
-          "roman": "Alex",
-          "original": "アレックス"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Ibuki"
-        },
-        {
-          "region": "japan",
-          "roman": "Ibuki",
-          "original": "いぶき"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Yun"
-        },
-        {
-          "region": "japan",
-          "roman": "Yun",
-          "original": "ユン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Yang"
-        },
-        {
-          "region": "japan",
-          "roman": "Yang",
-          "original": "ヤン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Necro"
-        },
-        {
-          "region": "japan",
-          "roman": "Necro",
-          "original": "ネクロ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Sean Matsuda"
-        },
-        {
-          "region": "japan",
-          "roman": "Sean Matsuda",
-          "original": "ショーン・マツダ/松田"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Oro"
-        },
-        {
-          "region": "japan",
-          "roman": "Oro",
-          "original": "オロ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Elena"
-        },
-        {
-          "region": "japan",
-          "roman": "Elena",
-          "original": "エレナ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Dudley"
-        },
-        {
-          "region": "japan",
-          "roman": "Dudley",
-          "original": "ダッドリー"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Gill"
-        },
-        {
-          "region": "japan",
-          "roman": "Gill",
-          "original": "ギル"
-        }
-      ]
-    }
-  ]
+{ 
+	"names": [
+		{
+			"region": "default",
+			"roman": "Street Fighter III: New Generation"
+		},
+		{
+			"region": "japan",
+			"roman": "Street Fighter III: New Generation",
+			"original": "ストリートファイターIII -NEW GENERATION-"
+		}
+	],
+	"also-known-as": [
+		"sf3", "ng", "sf3 vanilla", "sf3ng"
+	],
+	"platforms": [
+		{
+			"name": "Arcade",
+			"regions": [
+				{
+					"name": "Japan",
+					"roman": "Street Fighter III: New Generation",
+					"original": "ストリートファイターIII -NEW GENERATION-",
+					"releaseDate": "02-1997",
+					"developer": "Capcom",
+					"publisher": "Capcom"
+				},
+				{
+					"name": "United States",
+					"roman": "Street Fighter III: New Generation",
+					"releaseDate": "02-04-1997",
+					"developer": "Capcom",
+					"publisher": "Capcom"
+				},
+				{
+					"name": "Europa",
+					"roman": "Street Fighter III: New Generation",
+					"releaseDate": "03-20-1997",
+					"developer": "Capcom",
+					"publisher": "Capcom"
+				}
+			]
+		},
+		{
+			"name": "Dreamcast",
+			"regions": [
+				{
+					"name": "United States",
+					"roman": "Street Fighter III: Double Impact",
+					"releaseDate": "06-19-2000",
+					"developer": "Capcom",
+					"publisher": "Capcom",
+					"coverFront": "dc-us-front.webp"
+				},
+				{
+					"name": "Europe",
+					"roman": "Street Fighter III: Double Impact",
+					"releaseDate": "09-15-2000",
+					"developer": "Capcom",
+					"publisher": "Capcom",
+					"coverFront": "dc-eu-front.webp"
+				},
+				{
+					"name": "Japan",
+					"roman": "Street Fighter III: W Impact",
+					"original": "ストリートファイターIII W IMPACT",
+					"releaseDate": "12-16-1999",
+					"developer": "Capcom",
+					"publisher": "Capcom",
+					"coverFront": "dc-jp-front.webp"
+				}
+			]
+		}
+	]
 }
