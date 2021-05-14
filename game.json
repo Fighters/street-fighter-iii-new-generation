@@ -1,4 +1,4 @@
-{ 
+{
 	"names": [
 		{
 			"region": "default",
@@ -11,7 +11,10 @@
 		}
 	],
 	"also-known-as": [
-		"sf3", "ng", "sf3 vanilla", "sf3ng"
+		"sf3",
+		"ng",
+		"sf3 vanilla",
+		"sf3ng"
 	],
 	"platforms": [
 		{
